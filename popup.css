@@ -1,0 +1,82 @@
+
+  body {
+    width: 320px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0e1117; /* dark background */
+    color: #eaeaea; /* light text */
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #f5f5f5;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #2f333c;
+    border-radius: 6px;
+    background-color: #1c1f26;
+    color: #eaeaea;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  #get-first-hint-button {
+    background-color: #2d3748;
+    color: #f0f0f0;
+  }
+
+  #get-next-hint-button {
+    background-color: #3c4453;
+    color: #f0f0f0;
+  }
+
+  button:hover {
+    background-color: #4a5568;
+    transform: scale(1.01);
+  }
+
+  #step-counter {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5px;
+    color: #a0aec0;
+    font-style: italic;
+  }
+
+  #loading {
+    display: none;
+    text-align: center;
+    color: #a0aec0;
+    margin: 10px 0;
+  }
+
+  #hint {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #1a1e24;
+    border: 1px solid #2f333c;
+    border-radius: 6px;
+    font-size: 13.5px;
+    line-height: 1.5;
+    white-space: pre-line;
+    color: #eaeaea;
+  }
+
+  .error {
+    color: #f56565;
+  }
+
