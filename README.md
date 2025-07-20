@@ -1,13 +1,11 @@
-# LeetCode Hint Helper
+# LeetCode AI Hint 
 
-LeetCode Hint Helper is a Chrome extension that provides helpful hints for LeetCode problems. The extension uses an API to fetch hints based on the name of the currently open LeetCode problem.
+LeetCode AI Hint is a Chrome extension that provides helpful hints for LeetCode problems. The extension uses an API to fetch hints based on the name of the currently open LeetCode problem.
 
 ## Features
 - Automatically detects the LeetCode problem name from the active tab.
 - Fetches hints using a backend server connected to an external API.
 - Displays the hints in a clean and intuitive popup interface.
-
-https://github.com/user-attachments/assets/94593e7b-c00a-48bd-8a13-8c9a05f7fdb3
 
 ## Installation
 1. Clone the repository:
